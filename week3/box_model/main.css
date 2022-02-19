@@ -1,0 +1,19 @@
+span{
+    width: 100px;
+    height: 100px;
+    border: 4px dotted blue;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 4px dotted red;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
