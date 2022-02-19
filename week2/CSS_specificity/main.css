@@ -1,0 +1,86 @@
+/*Applies as read, top to bottom unless specificity is higher*/
+
+/*specificity = 1*/
+p{
+    height: auto;
+    width: 400px;
+    border: 3px dotted green;
+}
+
+/*specificity = 1*/
+div{
+    height: auto;
+    width: auto;
+    border: 4px dotted cyan;
+}
+
+/*specificity = 1*/
+h1{
+    height: 50px;
+    width: 200px;
+    border: 5px black solid;
+}
+
+/*specificity = 1*/
+h2{
+    height: auto;
+    width: 300px;
+    border: 2px solid red;
+}
+
+/*specificity = 2*/
+p::first-letter{
+    color: pink;
+}
+
+/*specificity = 100 */
+#Special{
+    background-color: bisque;
+    color: brown;
+    border: 5px solid groove orange;
+
+}
+
+/*specificity = 11*/
+.something::first-line{
+    color:purple;
+}
+
+/*specificity = 11*/
+.something::first-letter{
+    color:green;
+}
+
+/*specificity = 10*/
+.random{
+    background-color: black;
+    color: white;
+}
+
+/*specificity = 11*/
+.random::first-letter{
+    color: yellow;
+}
+
+/*specificity = 10*/
+.something{
+    background-color: gold;
+    color: red;
+    border: 4px solid purple;
+}
+
+/*specificity = 11*/
+.SecondP::first-letter{
+    color:blue;
+}
+
+/*Specificity = 10*/
+.SecondP{
+    color:aqua;
+    background-color: darkorange;
+}
+
+/*Specificity = 101*/
+#Special::first-line{
+    color:grey;
+}
