@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+    background-size: cover;
+    border: 10px groove gold;
+    margin:0 auto;
+    display: inline-block;
+}
