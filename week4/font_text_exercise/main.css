@@ -1,0 +1,57 @@
+h1{
+    font-family: serif;
+    text-shadow: 2px 2px 2px green;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', serif;
+}
+
+a:link{
+    text-decoration-line: none;
+    color:blue;
+}
+
+a:visited{
+    text-decoration-line: none;
+    color:red;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    color:purple;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.format{
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+.space{
+    letter-spacing: 1rem;
+}
+
+.irrelavent{
+    text-decoration-line: line-through;
+}
+
+.paragraph{
+    text-indent: 1rem;
+}
