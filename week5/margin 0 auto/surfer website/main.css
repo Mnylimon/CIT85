@@ -1,0 +1,26 @@
+html{
+    background-color:#085297;
+}
+
+
+body{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #07cc5c;
+    border: 5px solid black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border: 10px groove gold;
+    border-radius: 100%;
+}
+
+header{
+    color:red;
+}
+
+.header1{
+    color: #085297;
+}

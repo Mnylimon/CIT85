@@ -1,0 +1,33 @@
+*{
+    border: 1px dotted blue;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 7%;
+    margin: 0 auto;
+}
+
+.one{
+    background-color: red;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: gold;
+}
+
+.four{
+    background-color: green;
+}
