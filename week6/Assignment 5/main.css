@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    width: 75%;
+}
+
+div{
+    color: white;
+}
+
+#group{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid red;
+    width: 70%;
+}
+
+#one{
+    background-color: navy;
+    width: 30%;
+    border: 2px solid navy;
+    height: 200px;
+}
+
+#two{
+    background-color: blue;
+    width: 100%;
+}
+
+#three{
+    background-color: skyblue;
+    width: 100%;
+}
