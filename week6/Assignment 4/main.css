@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 75%;
+    border: 5px solid red;
+}
+
+div{
+    height: 100px;
+}
+
+#one{
+    background-color: rgb(23, 23, 143);
+    width: 60%;
+}
+
+#two{
+    background-color: rgb(44, 44, 253);
+    width: 40%;
+}
+
+#three{
+    background-color: lightblue;
+    width: 33.33%;
+}
+
+#four{
+    background-color:azure;
+    width: 33.33%;
+}
+
+#five{
+    background-color:gainsboro;
+    width: 33.33%;
+}
