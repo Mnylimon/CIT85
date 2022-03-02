@@ -1,0 +1,7 @@
+ul{
+    flex-flow: row nowrap;
+}
+
+a{
+    padding: 1rem;
+}
