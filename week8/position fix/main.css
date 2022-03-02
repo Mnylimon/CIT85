@@ -1,0 +1,9 @@
+#dog{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(225, 0, 0, .5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
