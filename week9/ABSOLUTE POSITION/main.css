@@ -1,0 +1,21 @@
+*{
+    border: 2px solid green;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#two{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    color: white;
+    background-color: red;
+}
+
+#two{
+    position: static;
+}
