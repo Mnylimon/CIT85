@@ -1,0 +1,37 @@
+div{
+    border: 3px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+#one{
+    background-color: gold;
+    border: 4px solid blue;
+
+}
+
+#two{
+    border: 6px solid green;
+    height: 90px;
+}
+
+#three{
+    display: inline-block;
+    background-color: skyblue;
+    width: 20%;
+    height: 80px;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+#four{
+    display: inline-block;
+    background-color: lightgreen;
+    width: 80.335%;
+    height: 80px;
+    margin-left: -2px;
+}
+#five{
+    background-color: purple;
+    border: 4px solid red;
+}

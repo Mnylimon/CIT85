@@ -1,0 +1,35 @@
+div{
+    overflow: auto;
+    border: 3px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+#one{
+    background-color: gold;
+    border: 4px solid blue;
+
+}
+
+#two{
+    border: 5px solid green;
+    height: 90px;
+}
+
+#three{
+    background-color: skyblue;
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+#four{
+    background-color: lightgreen;
+    width: 80%;
+    float: right;
+    height: 100%;
+}
+#five{
+    background-color: purple;
+    border: 4px solid red;
+}
